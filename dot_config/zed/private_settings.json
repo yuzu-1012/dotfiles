@@ -16,7 +16,7 @@
     }
   },
   "base_keymap": "VSCode",
-  "buffer_font_family": "JetbrainsMono NF",
+  "buffer_font_family": "Sarasa Mono Gothic SC",
   "buffer_font_size": 20.0,
   "buffer_font_weight": 300,
   "context_servers": {
@@ -209,7 +209,7 @@
     "light": "Morandi",
     "mode": "dark"
   },
-  "ui_font_family": "JetbrainsMono NF",
+  "ui_font_family": "Sarasa Mono Gothic SC",
   "ui_font_size": 14,
   "ui_font_weight": 300
 }

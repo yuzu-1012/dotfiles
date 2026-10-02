@@ -794,9 +794,9 @@
     },
     "ui": {
         "boxBorderEnabled": false,
-        "fontDefault": "Noto Sans",
+        "fontDefault": "Sarasa UI Gothic SC",
         "fontDefaultScale": 1,
-        "fontFixed": "Noto Sans Mono",
+        "fontFixed": "Sarasa Mono Gothic SC",
         "fontFixedScale": 1,
         "panelBackgroundOpacity": 0.9500000000000001,
         "panelsAttachedToBar": true,

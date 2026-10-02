@@ -22,6 +22,6 @@ input {
         map-to-output "HDMI-A-1"
     }
 
-    focus-follows-mouse // Automatically focus windows under the mouse pointer
+    // focus-follows-mouse // Disabled: prevent auto-focus when mouse moves to another window
     workspace-auto-back-and-forth // Enable workspace back & forth switching
 }
