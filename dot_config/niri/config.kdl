@@ -19,8 +19,8 @@ environment {
     GTK_IM_MODULE "fcitx"
     SDL_IM_MODULE "fcitx"
     // NVIDIA hybrid GPU offloading
-    __NV_PRIME_RENDER_OFFLOAD "1"
-    __GLX_VENDOR_LIBRARY_NAME "nvidia"
+    //__NV_PRIME_RENDER_OFFLOAD "1"
+    //__GLX_VENDOR_LIBRARY_NAME "nvidia"
 }
 
 input {
@@ -91,4 +91,8 @@ window-rule {
 cursor {
     xcursor-theme "Bibata-Modern-Classic"
     xcursor-size 16
+}
+
+debug {
+    render-drm-device "/dev/dri/renderD129"
 }

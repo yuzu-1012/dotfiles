@@ -26,3 +26,4 @@ dot_config/REAPER/reaper-mouse.ini
 dot_config/REAPER/reaper-vstplugins64.ini
 dot_config/REAPER/reaper-jsfx.ini
 dot_config/REAPER/reaper-reginfo2.ini
+dot_local/share/kwalletd/**

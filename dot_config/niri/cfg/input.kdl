@@ -19,7 +19,7 @@ input {
     }
 
     tablet {
-        map-to-output "HDMI-A-1"
+        map-to-output "HDMI-A-4"
     }
 
     // focus-follows-mouse // Disabled: prevent auto-focus when mouse moves to another window

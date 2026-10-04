@@ -1,0 +1,8 @@
+[General]
+ColorScheme=Windows11Dark
+
+[Icons]
+Theme=Win11
+
+[KDE]
+widgetStyle=kvantum
