@@ -20,12 +20,6 @@ Name=pinyin
 
 [Groups/0/Items/2]
 # Name
-Name=keyboard-us-dvorak-classic
-# Layout
-# Layout=
-
-[Groups/0/Items/3]
-# Name
 Name=keyboard-jp
 # Layout
 # Layout=
