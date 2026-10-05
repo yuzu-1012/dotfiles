@@ -1,3 +1,7 @@
+[Daemon]
+Autolock=false
+Timeout=0
+
 [Greeter][Wallpaper][org.kde.image][General]
 Image=/home/xu/图片/WallPapers/壁纸3.jpg
 PreviewImage=/home/xu/图片/WallPapers/壁纸3.jpg
