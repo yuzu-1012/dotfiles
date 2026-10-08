@@ -141,7 +141,7 @@ Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
-Speedbar Width=89
+Speedbar Width=151
 View Style=DetailTree
 
 [KShortcutsDialog Settings]
