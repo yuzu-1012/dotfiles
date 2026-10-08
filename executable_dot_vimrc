@@ -1,0 +1,122 @@
+filetype plugin indent on
+
+"调整文件缩进显示 
+"expandtab 按tab插入空格而非制表符 
+"shiftwidth 缩进时插入空格数
+"softtabstop 退格时的空格数
+"tabstop 制表符显示宽度(字符)
+augroup language_indentation
+	autocmd!
+
+	"HTML, CSS, JavaScript, TypeScript
+	autocmd FileType html,css,javascript,typescript,javascriptreact,typescriptreact setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+
+	"JSON, YAML
+	autocmd FileType json,yaml setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+
+	"Python
+	autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=4
+
+	"C, C++, Java, Go, Rust
+	autocmd FileType c,cpp,java,rust setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=4
+
+	"Shell
+	autocmd FileType sh,bash,zsh, setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+
+	"Vim
+	autocmd FileType vim setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=4
+augroup END
+
+"语法高亮
+syntax enable
+
+"使用 UTF-8
+set encoding=utf-8
+
+"命令行、补全和界面
+set number
+set relativenumber
+set ruler
+set showcmd
+set wildmenu
+set wildmode=longest:full,full
+set showmode
+
+"搜索
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+
+"编辑
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
+set backspace=indent,eol,start
+
+"防止水平滚动
+set scrolloff=5
+set sidescrolloff=5
+
+"保留撤销记录
+set undofile
+set undolevels=1000
+set undoreload=10000
+
+"关闭交换文件和备份文件
+set noswapfile
+set nobackup
+set nowritebackup
+
+"允许鼠标
+set mouse=a
+
+"显示状态栏
+set laststatus=2
+
+"识别隐藏字符
+set list
+set listchars="tab:>-,trail:.,extends:>,precedes:<"
+
+"自动读取外部修改，保存前提示
+set autoread
+set confirm
+
+"快捷键
+"Ctrl+s 保存文件
+nnoremap <C-s> :update<CR>
+inoremap <C-s> <Esc>:update<CR>gi
+
+"Ctrl+q 退出
+nnoremap <C-q> :q<CR>
+
+" Ctrl+Z 撤销
+nnoremap <C-z> u
+inoremap <C-z> <C-o>u
+xnoremap <C-z> <Esc>u
+
+" Ctrl+Y 重做
+nnoremap <C-y> <C-r>
+inoremap <C-y> <C-o><C-r>
+
+"space 清楚搜索高亮
+nnoremap <silent> <Space> :nohlsearch<CR>
+
+" 默认使用系统剪贴板
+set clipboard=unnamedplus
+
+" 可视模式下 Ctrl+C 复制选中内容
+xnoremap <C-c> "+y
+
+"撤销文件保存路径
+if exists('+undodir')
+    silent! call mkdir(expand('~/.vim/undodir'),'p')
+    set undodir=~/.vim/undodir
+endif
+
+
+"状态栏显示内容 文件名-是否被修改-是否只读-文件类型-当前行号和总行数-当前列号
+set statusline=%f\ %m\ %r\ %y\ [%{&fileencoding!=''?&fileencoding:&encoding}]\ [%l/%L,%c]
