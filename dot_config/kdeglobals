@@ -111,11 +111,11 @@ LastUsedCustomAccentColor=61,212,37
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=none
-fixed=等距更纱黑体 SC,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-font=更纱黑体 SC,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-menuFont=更纱黑体 UI SC,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-smallestReadableFont=更纱黑体 SC,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-toolBarFont=更纱黑体 UI SC,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+fixed=Consolas,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+font=Segoe UI Variable,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=Segoe UI Symbol,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=Segoe UI Variable,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=Segoe UI Symbol,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [Icons]
 Theme=Win11-dark
@@ -157,7 +157,7 @@ FitToPage=Meta+F
 [WM]
 activeBackground=51,51,51
 activeBlend=171,171,171
-activeFont=更纱黑体 UI SC,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+activeFont=Segoe UI Semibold,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Regular,0,0
 activeForeground=222,222,222
 inactiveBackground=66,66,66
 inactiveBlend=234,234,234
