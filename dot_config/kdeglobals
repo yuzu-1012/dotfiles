@@ -111,10 +111,10 @@ LastUsedCustomAccentColor=61,212,37
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=none
-fixed=Consolas,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+fixed=等距更纱黑体 SC,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold,0,0
 font=Segoe UI Variable,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 menuFont=Segoe UI Symbol,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-smallestReadableFont=Segoe UI Variable,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=Segoe UI Variable,9,-1,5,600,0,0,0,0,0,0,0,0,0,0,1,Semibold Display,0,0
 toolBarFont=Segoe UI Symbol,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [Icons]
