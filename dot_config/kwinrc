@@ -10,6 +10,10 @@ Active=true
 blurEnabled=false
 kwin4_effect_geometry_changeEnabled=true
 
+[Tiling][4864fece-5cae-4596-bb8f-f4f666ca3b8b][1dfe55e2-31b2-47d6-bf4f-c2e97b7aea14]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][4864fece-5cae-4596-bb8f-f4f666ca3b8b][7e92ff22-2c07-41e7-bbaa-949e56762d42]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
