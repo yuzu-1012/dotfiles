@@ -15,7 +15,7 @@ EnumerateGroupForwardKeys=
 ModifierOnlyKeyTimeout=255
 
 [Hotkey/TriggerKeys]
-0=Control+Shift+space
+0=Control+Super+space
 1=Zenkaku_Hankaku
 2=Hangul
 
