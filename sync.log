@@ -2858,3 +2858,9 @@ To github.com:yuzu-1012/dotfiles.git
  2 files changed, 8 insertions(+)
 To github.com:yuzu-1012/dotfiles.git
    6485882..4224dc4  master -> master
+[master e2f710d] auto: 2026-10-15-12:19:57
+ 4 files changed, 6 insertions(+), 5 deletions(-)
+Connection closed by 198.18.0.42 port 443
+致命错误：无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
