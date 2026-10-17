@@ -6,17 +6,10 @@
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                    [
+                        0,
+                        1
+                    ]
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
@@ -24,8 +17,6 @@
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
-                "customModes": [
-                ],
                 "detectedDdcCi": false,
                 "edidHash": "3eead58071f80f4791c867c2c67c0043",
                 "edidIdentifier": "AUO 25581 0 0 2017 0",
@@ -36,10 +27,21 @@
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
                 "mode": {
-                    "flags": 1,
-                    "height": 1080,
-                    "refreshRate": 60052,
-                    "width": 1920
+                    "cvt": {
+                        "clock": 142000,
+                        "flags": 9,
+                        "hdisplay": 1920,
+                        "hskew": 0,
+                        "hsyncEnd": 2076,
+                        "hsyncStart": 2028,
+                        "htotal": 2100,
+                        "vdisplay": 1080,
+                        "vscan": 0,
+                        "vsyncEnd": 1100,
+                        "vsyncStart": 1090,
+                        "vtotal": 1126
+                    },
+                    "flags": 1
                 },
                 "overscan": 0,
                 "rgbRange": "Automatic",
@@ -57,17 +59,10 @@
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": true,
                 "autoBrightnessCurve": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                    [
+                        0,
+                        1
+                    ]
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
@@ -75,8 +70,6 @@
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "HDMI-A-4",
-                "customModes": [
-                ],
                 "detectedDdcCi": false,
                 "edidHash": "bc9e1caa784c18e75dd62281bbfeda7c",
                 "edidIdentifier": "PHL 49205 3174 30 2012 0",
@@ -107,17 +100,10 @@
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": true,
                 "autoBrightnessCurve": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                    [
+                        0,
+                        1
+                    ]
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
@@ -125,8 +111,6 @@
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "HDMI-A-4",
-                "customModes": [
-                ],
                 "detectedDdcCi": false,
                 "edidHash": "9c730cb772c76dbe5c3b294c8672e1b9",
                 "edidIdentifier": "IWB 0 0 32 2019 0",

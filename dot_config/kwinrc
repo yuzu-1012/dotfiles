@@ -1,6 +1,9 @@
 [Desktops]
 Id_1=4864fece-5cae-4596-bb8f-f4f666ca3b8b
-Number=1
+Id_2=d008b895-5982-4dbb-bc3d-88d5dc770235
+Name_1=日常使用
+Name_2=游戏
+Number=2
 Rows=1
 
 [NightColor]
@@ -9,6 +12,10 @@ Active=true
 [Plugins]
 blurEnabled=false
 kwin4_effect_geometry_changeEnabled=true
+
+[Tiling][4864fece-5cae-4596-bb8f-f4f666ca3b8b][]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][4864fece-5cae-4596-bb8f-f4f666ca3b8b][1dfe55e2-31b2-47d6-bf4f-c2e97b7aea14]
 padding=4
@@ -19,6 +26,14 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][4864fece-5cae-4596-bb8f-f4f666ca3b8b][dc391f57-70da-4087-8aa7-afdac02aa1b3]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][d008b895-5982-4dbb-bc3d-88d5dc770235][]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][d008b895-5982-4dbb-bc3d-88d5dc770235][dc391f57-70da-4087-8aa7-afdac02aa1b3]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
