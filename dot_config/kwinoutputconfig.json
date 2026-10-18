@@ -79,10 +79,21 @@
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
-                    "flags": 1,
-                    "height": 1080,
-                    "refreshRate": 60000,
-                    "width": 1920
+                    "cvt": {
+                        "clock": 148500,
+                        "flags": 5,
+                        "hdisplay": 1920,
+                        "hskew": 0,
+                        "hsyncEnd": 2052,
+                        "hsyncStart": 2008,
+                        "htotal": 2200,
+                        "vdisplay": 1080,
+                        "vscan": 0,
+                        "vsyncEnd": 1089,
+                        "vsyncStart": 1084,
+                        "vtotal": 1125
+                    },
+                    "flags": 1
                 },
                 "overscan": 0,
                 "rgbRange": "Automatic",
@@ -242,6 +253,21 @@
                             "y": 0
                         },
                         "priority": 2,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0,
                         "replicationSource": ""
                     }
                 ]

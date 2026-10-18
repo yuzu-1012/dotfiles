@@ -17,8 +17,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][146][ConfigDialog]
-DialogHeight=1000
-DialogWidth=1912
+DialogHeight=1014
+DialogWidth=1920
 
 [Containments][146][General]
 changedPositions={"desktop:/steam.desktop":["1920x1080","1","0"]}
@@ -28,7 +28,7 @@ positions={"1920x1080":["1","20","desktop:/net.lutris.hypergryphlauncher_v160160
 sortMode=-1
 
 [Containments][146][Wallpaper][org.kde.image][General]
-Image=file:///home/xu/图片/WallPapers/壁纸3.jpg
+Image=file:///home/xu/图片/WallPapers/壁纸1.jpg
 SlidePaths=/home/xu/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][147]
@@ -109,13 +109,20 @@ plugin=org.kde.plasma.dwellclicker
 
 [Containments][147][Applets][152][Applets][163]
 immutability=1
-plugin=org.kde.plasma.networkmanagement
+plugin=org.kde.plasma.keyboardlayout
 
 [Containments][147][Applets][152][Applets][164]
 immutability=1
-plugin=org.kde.plasma.volume
+plugin=org.kde.plasma.networkmanagement
 
 [Containments][147][Applets][152][Applets][164][Configuration][General]
+migrated=true
+
+[Containments][147][Applets][152][Applets][165]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][147][Applets][152][Applets][165][Configuration][General]
 migrated=true
 
 [Containments][147][Applets][152][Applets][168]
@@ -212,6 +219,8 @@ plugin=org.kde.plasma.marginsseparator
 AppletOrder=176;148;187;189;190;152;165;166
 
 [Containments][191]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=2399b55b-fdba-4113-8af0-915c2c84d5fa
 formfactor=0
 immutability=1
