@@ -15,8 +15,10 @@ application/yaml=neovide.desktop;
 image/png=org.gnome.Loupe.desktop;
 text/markdown=dev.zed.Zed.desktop;
 text/plain=neovide.desktop;
-x-scheme-handler/clash=clash-verge.desktop;
-x-scheme-handler/clash-verge=clash-verge.desktop;
+x-scheme-handler/clash=clash-verge.desktop;clash-verge-handler.desktop;
+x-scheme-handler/clash-verge=clash-verge.desktop;clash-verge-handler.desktop;
+x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop;
+x-scheme-handler/discord-719647875465871400=discord-719647875465871400.desktop;
 
 [Default Applications]
 application/pdf=wps-office-pdf.desktop;
