@@ -24,7 +24,7 @@ DialogWidth=1920
 changedPositions={"desktop:/steam.desktop":["1920x1080","1","0"]}
 iconSize=2
 lastResolution=1920x1080
-positions={"1920x1080":["1","20","desktop:/steam.desktop","1","0","desktop:/net.lutris.hypergryphlauncher_v1601604_1_1_endfield-1.desktop","0","0"]}
+positions={"1920x1080":["1","20","desktop:/net.lutris.hypergryphlauncher_v1601604_1_1_endfield-1.desktop","0","0","desktop:/steam.desktop","1","0","desktop:/mesen.desktop","0","0"]}
 sortMode=-1
 
 [Containments][146][Wallpaper][org.kde.image][General]
@@ -165,8 +165,8 @@ immutability=1
 plugin=luisbocanegra.panel.colorizer
 
 [Containments][147][Applets][176][Configuration]
-popupHeight=375
-popupWidth=525
+popupHeight=451
+popupWidth=450
 
 [Containments][147][Applets][176][Configuration][ConfigDialog]
 DialogHeight=1000
