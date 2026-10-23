@@ -12,6 +12,7 @@ Active=true
 [Plugins]
 blurEnabled=false
 kwin4_effect_geometry_changeEnabled=true
+kwin4_effect_shapecornersEnabled=false
 
 [Tiling][4864fece-5cae-4596-bb8f-f4f666ca3b8b][]
 padding=4
