@@ -19,6 +19,8 @@ x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop;
 x-scheme-handler/clash=clash-verge.desktop;clash-verge-handler.desktop;
 x-scheme-handler/clash-verge=clash-verge.desktop;clash-verge-handler.desktop;
 x-scheme-handler/discord-719647875465871400=discord-719647875465871400.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
 
 [Default Applications]
 application/pdf=wps-office-pdf.desktop;
@@ -59,3 +61,5 @@ x-scheme-handler/discord-1345366770436800533=discord-1345366770436800533.desktop
 x-scheme-handler/discord-719647875465871400=discord-719647875465871400.desktop
 x-scheme-handler/opencode=ai.opencode.desktop.desktop
 x-scheme-handler/zcode=zcode.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
